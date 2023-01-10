@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, .box-footer{
+    background-color: black;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around !important;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-container {
+    border: 2px solid #ccc;
+}
+
+.text-box {
+    margin: 40px 0 0 180px;
+
+}
+
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after{
+    color: #fff !important;
+    filter: invert(100%);
+}
